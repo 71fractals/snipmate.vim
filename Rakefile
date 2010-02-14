@@ -2,7 +2,7 @@ require 'rake'
 require 'rake/contrib/sshpublisher'
 
 # TODO: I will try to make it more DRY later  :P
-files = ['after/plugin/snipMate.vim', 'autoload/snipMate.vim', 'doc/snipMate.txt', 'ftplugin/html_snip_helper.vim', 'plugin/snipMate.vim', 'snippets/_.snippets', 'snippets/', 'snippets/autoid.snippets', 'snippets/c.snippets', 'snippets/cpp.snippets', 'snippets/erlang.snippets', 'snippets/html.snippets', 'snippets/java.snippets', 'snippets/javascript.snippets', 'snippets/mako.snippets', 'snippets/objc.snippets', 'snippets/perl.snippets', 'snippets/php.snippets', 'snippets/python.snippets', 'snippets/ruby.snippets', 'snippets/sh.snippets', 'snippets/snippet.snippets', 'snippets/tcl.snippets', 'snippets/tex.snippets', 'snippets/vim.snippets', 'snippets/zsh.snippets', 'syntax/snippet.vim']
+files = ['after/plugin/snipMate.vim', 'autoload/snipMate.vim', 'doc/snipMate.txt', 'ftplugin/html_snip_helper.vim', 'plugin/snipMate.vim', 'snippets/_.snippets', 'snippets/autoit.snippets', 'snippets/c.snippets', 'snippets/cpp.snippets', 'snippets/erlang.snippets', 'snippets/html.snippets', 'snippets/java.snippets', 'snippets/javascript.snippets', 'snippets/mako.snippets', 'snippets/objc.snippets', 'snippets/perl.snippets', 'snippets/php.snippets', 'snippets/python.snippets', 'snippets/ruby.snippets', 'snippets/sh.snippets', 'snippets/snippet.snippets', 'snippets/tcl.snippets', 'snippets/tex.snippets', 'snippets/vim.snippets', 'snippets/zsh.snippets', 'syntax/snippet.vim']
 
 # mix from vim-rails and nerdtree projects
 desc "Install"
